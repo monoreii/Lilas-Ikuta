@@ -1,0 +1,98 @@
+*{
+	padding: 0px;
+	margin: 0px;
+	box-sizing: border-box;
+}
+body{
+	font-family: montserrat;
+}
+.nav-item{
+	padding: 10px 12px;
+}
+.navbar{
+	background: #e8eae6;
+}
+#id-signup{
+	padding: 10px;
+}
+#id-signin{
+	color: #333333;
+	padding: 10px;
+	width: 100px;
+	text-align: center;
+	background: #cfdac8;
+	border-radius: 16px;
+}
+#id-signin:hover{
+	color: white;
+	background: #7c9473;
+	transition: 480ms ease;
+}
+.mediaBox{
+	padding: 10px;
+}
+#yt:hover{
+	color: white;
+	background: #c4302b;
+	transition: 480ms ease;
+}
+#ig:hover{
+	color: white;
+    background: linear-gradient(#C13584, #F77737);
+    transition: 480ms ease;
+}
+#tweet:hover{
+	color: white;
+	background: #1DA1F2;
+	transition: 480ms ease;
+}
+
+.search{
+	padding: 9px;
+	width: 300px;
+	border-radius: 4px;
+	background: #cfdac8;
+	outline: none;
+	border: none;
+}
+.hr-width{
+	width: 370px;
+	margin: auto;
+}
+
+.h4-headline{
+	font-family: montserrat;
+	font-weight: 400;
+	font-size: 32px;
+}
+.contact-button{
+	width: 100px;
+	background: #cfdac8;
+	outline: none;
+	border: none;
+}
+.contact-button:hover{
+	color: white;
+	background: #7c9473;
+	transition: 480ms ease;
+}
+.text-justify{
+	font-size: 18px;
+	text-align: justify;
+}
+
+.link-headline{
+	color: black;
+	text-decoration: none;
+}
+.list-songs{
+	margin-left: 200px
+}
+.border-col{
+	border-right: 1px solid #777;
+}
+
+.font-awesome{
+	font-size: 20px;
+	letter-spacing: 1px;
+}

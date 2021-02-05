@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta name="viewport" content="device=width-device, initial-scale=1">
+		<title> Lilas Ikuta - Home </title>
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<link rel="shortcut icon" href="Image/logo/favicon.ico"/>
+		<script src="https://kit.fontawesome.com/2c8179bc28.js" crossorigin="anonymous"></script>
+	</head>
+	<body>
+		<!-- navbar only -->
+		<nav class="navbar navbar-expand-lg navbar-light">
+			<div class="container-fluid">
+				<a class="navbar-brand" href="index.html">
+					<img src="Image/logo/halzion-lilas.png" alt="Logo Halzion" width="90">
+				</a>
+				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarSupportedContent">
+					<ul class="navbar-nav me-auto mb-2 mb-lg-0">
+						<li class="nav-item">
+							<a class="nav-link active" aria-current="page" href="#">Home</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="article/article.html">Article</a>
+						</li>
+						<li class="nav-item dropdown">
+							<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false"> Media
+							</a>
+							<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+								<li><a class="dropdown-item mediaBox" href="https://www.youtube.com/channel/UCztEY6czNyJKjRWMwuur9bg" id="yt">Youtube</a></li>
+								<li><a class="dropdown-item mediaBox" href="https://www.instagram.com/lilasikuta" id="ig">Instagram</a></li>
+								<li><a class="dropdown-item mediaBox" href="https://twitter.com/ikutalilas" id="tweet">Twitter</a></li>
+								<li><hr class="dropdown-divider"></li>
+								<li><a class="dropdown-item" href="mailto: naufalanh@gmail.com?subject = Feedback&body = Message">Contact (Writer)</a></li>
+							</ul>
+						</li>
+					</ul>
+					<form class="d-flex">
+						<ul class="navbar-nav">
+							<li class="nav-item"><a href="page/signup.html" class="nav-link" id="id-signup"> Sign up</a></li>
+							<li class="nav-item"><a href="page/signin.html" class="nav-link" id="id-signin"> Sign In</a></li>
+						</ul>
+					</form>
+				</div>
+			</div>
+		</nav>
+		<!-- carousel -->
+		<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+			<ol class="carousel-indicators">
+				<li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"></li>
+				<li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"></li>
+				<li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"></li>
+			</ol>
+			<div class="carousel-inner">
+				<div class="carousel-item active">
+					<a href="article/article.html"><img src="Image/carousel/lilas-carousel-3.jpg" class="d-block w-100 img-fluid" alt="Lilas"></a>
+				</div>
+				<div class="carousel-item">
+					<a href="article/article.html"><img src="Image/carousel/lilas-carousel-2.jpg" class="d-block w-100 img-fluid" alt="Lilas Ikuta"></a>
+				</div>
+				<div class="carousel-item">
+					<a href="article/article.html"><img src="Image/carousel/lilas-carousel.jpg" class="d-block w-100 img-fluid" alt="Lilas Ikuta"></a>
+				</div>
+			</div>
+			<a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-bs-slide="prev">
+				<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+				<span class="visually-hidden">Previous</span>
+			</a>
+			<a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-bs-slide="next">
+				<span class="carousel-control-next-icon" aria-hidden="true"></span>
+				<span class="visually-hidden">Next</span>
+			</a>
+		</div>
+		<br>
+		<hr class="hr-width">
+		<div class="container searchBox">
+			<div class="display-6 searchText">Search something?</div>
+			<form action="" class="form-search">
+				<input class="searchBar" type="search" placeholder="Search" aria-label="Search">
+				<button class="btn color-btn btn-outline-success" type="submit">Search</button>
+			</form>
+		</div>
+		
+		<!-- article -->
+		<h1 class="display-6 h1-article">Blog & Article</h1>
+		<hr class="hr-width">
+		<main class="container">
+			<div class="p-4 p-md-5 mb-4 rounded article-bg">
+				<div class="container">
+					<div class="row">
+						<div class="col-sm">
+							<h1 class="display-5 font-italic">Ikuta Lilas published a new Album called "Jukebox" in 2019</h1>
+							<p class="lead my-3">Jukebox is the second album that she released At the first time, she always make a song and not aiming for an album, but only single.</p>
+							<p class="lead mb-0"><a href="article/article.html" class="hover-article">Continue reading...</a></p>
+						</div>
+						<div class="col-sm">
+							<a href="#">
+								<img src="Image/article/Jukebox.png" alt="Jukebox" width="400" class="rounded float-end img-fluid">
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</main>
+		
+		<!-- card -->
+		<div class="container">
+			<div class="row">
+				<div class="col-sm">
+					<div class="card mb-4">
+						<div class="row g-0 card-bg">
+							<div class="col-md-4">
+								<br>
+								<img src="Image/article/thebook.jpg" alt="The Book - YOASOBI" width="210">
+							</div>
+							<div class="col-md-7">
+								<div class="card-body">
+									<h5 class="card-title">YOASOBI New Album</h5>
+									<p class="card-text">
+										The Book is the first extended play and first physical release by Yoasobi, released on January 6, 2021, the same day with their seventh single, Kaibutsu. And now reached top 10 in Japanese!
+									</p>
+									<small class="text-muted">Related to Lilas Ikuta</small>
+									<p><a href="article/article.html">Continue Reading...</a></p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm">
+					<div class="card mb-4">
+						<div class="row g-0 card-bg">
+							<div class="col-md-4">
+								<br>	
+								<img src="Image/article/lilas.jpg" alt="The Book - YOASOBI" width="210">
+							</div>
+							<div class="col-md-8">
+								<div class="card-body">
+									<h5 class="card-title">The Biography of Lilas Ikuta</h5>
+									<p class="card-text">She's the '20s Generation and right now, she's one of the most popular Japanese songwritter. She joined to YOASOBI at 2019, with the composer Ayase, she make a plenty music and bring a new color to Japanese music</p> 
+									
+									<small class="text-muted">Related to Lilas Ikuta</small>
+									<p><a href="article/article.html">Continue Reading...</a></p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="text-center">
+				<button class="btn btn-grad p-3 mt-3 mb-4" ><a href="article/article.html"> Continue Reading...</a></button>
+			</div>
+		</div>
+		
+		<div class="display-5 mid-text mt-4 mb-2">Why Halzion?</div>
+		<hr class="hr-width">
+		<div class="container text-explain">
+			<p class="text-center p-1">
+				What is Halzion?
+			</p>
+			<p class="text-justify p-1">"Halzion” or "Harujion" (ハルジオン, Philadelphia fleabane) is the third song released by Japanese music duo YOASOBI. It was released on May 11, 2020.
+				The song was based on "Soredemo, Happy End" (それでも、ハッピーエンド), a short story written by Hashizume Shunki (橋爪駿輝), marking the first time that YOASOBI collaborated with a professional novelist. Unlike the duo's former two songs, the source material was not based on the hosting website Monogatary. Rather, both the song and the short story were released as part of an advertising campaign by Suntory known as the "Immersive Song Project" to promote their new energy drink named Zone.	
+			</p>
+			<p class="text-justify p-1">And the reason why I choose Lilas Ikuta because I love her so much! She is very adorable and talented for example about her voice, she can make a lower pitch and higher pitch. And she’d same age with me (Writer). So, that’s why I choose Lilas Ikuta for my mini-project! </p>
+		</div>
+		<footer class="footer mt-auto py-3 bg-light">
+			<div class="container mb-4">
+				<div class="row">
+					<div class="col border-col">
+						<h4>Contact the writers!</h4>
+						<ul class="list-unstyled font-awesome mt-2">
+							<li><i class="fas fa-id-card"> +6281 2345 67890</i></li>
+							<li><i class="fas fa-envelope"> example@mail.domain</i></li>
+						</ul>
+					</div>
+					<div class="col">
+						<p class="text-justify">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officia odio cum ab fugit est tempore vitae obcaecati ipsum magnam impedit inventore expedita dolorem, dicta vero dolores natus accusantium sed alias. Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste obcaecati, ratione, repudiandae porro tempore optio voluptatibus consequuntur aperiam voluptates quo.</p>
+						
+					</div>
+				</div>
+			</div>
+			<div class="container">
+				<div class="row">
+					<div class="col border-col">
+						<a href="#" class="float-end">Privacy Policy</a>
+					</div>
+					<div class="col">
+						<a href="#" class="float-start">Terms of Service</a>
+					</div>
+			</div>
+			<div class="text-center mt-3">
+				<p>&copy; 2020 - 2021</p>
+			</div>
+		</footer>
+		<!-- for js bootstrap -->
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+	</body>
+</html>
